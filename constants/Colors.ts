@@ -7,6 +7,9 @@ const tintColorLight = '#0a7ea4';
 const tintColorDark = '#fff';
 
 export const Colors = {
+  white:"#fff",
+  PRIMARY:"#000",
+  darkGrey:"#1c1d1d",
   light: {
     text: '#11181C',
     background: '#fff',
