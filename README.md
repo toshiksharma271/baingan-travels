@@ -1,50 +1,63 @@
-# Welcome to your Expo app 👋
+# Baingan Travels
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Welcome to **Baingan Travels** - your ultimate travel companion! Using the power of AI, Baingan Travels helps you manage your trips efficiently by providing comprehensive details including cost estimates, must-visit places, flight ticket costs, and much more. Enjoy a seamless travel planning experience with our beautifully designed interface and intuitive features.
 
-## Get started
+## Features
 
-1. Install dependencies
+- **AI-Powered Itinerary Planning**: Get personalized travel plans based on your preferences and interests.
+- **Cost Estimation**: Calculate the total cost of your trip including accommodation, food, transport, and other expenses.
+- **Flight Ticket Booking**: Find and book the best flight tickets at competitive prices.
+- **Top Destinations**: Discover popular attractions and hidden gems at your destination.
+- **User-Friendly Design**: Enjoy a beautiful and intuitive interface that makes trip planning a breeze.
 
-   ```bash
-   npm install
-   ```
+## Getting Started
 
-2. Start the app
+### Prerequisites
 
-   ```bash
-    npx expo start
-   ```
+Before you begin, ensure you have met the following requirements:
 
-In the output, you'll find options to open the app in a
+- You have installed the latest version of [Node.js](https://nodejs.org/).
+- You have a modern web browser like Chrome, Firefox, or Safari.
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+### Installation
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/toshiksharma271/baingan-travels.git
+    ```
+2. Navigate to the project directory:
+    ```bash
+    cd baingan-travels
+    ```
+3. Install the dependencies:
+    ```bash
+    npm install
+    ```
 
-## Get a fresh project
+### Running the App
 
-When you're ready, run:
-
+To start the app, run the following command:
 ```bash
-npm run reset-project
+npm start
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+Install Expo and Scan the QR code coming in the cmd
 
-## Learn more
 
-To learn more about developing your project with Expo, look at the following resources:
+## Usage
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+- **Sign Up / Log In**: Create an account or log in to access personalized features.
+- **Plan Your Trip**: Enter your destination and travel dates to start planning your trip.
+- **Get Recommendations**: Receive AI-powered recommendations for places to visit, stay, and eat.
+- **Book Flights**: Search and book the best flight deals.
+- **View Cost Estimates**: Get a detailed breakdown of your trip costs.
+- **Enjoy Your Trip**: Have a great trip with the confidence that everything is planned and organized!
+   
 
-## Join the community
+License
+This project is licensed under the MIT License - see the LICENSE file for details.
 
-Join our community of developers creating universal apps.
+Contact
+If you have any questions or suggestions, feel free to reach out to us at baingan271@gmail.com
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+
