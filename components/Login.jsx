@@ -1,4 +1,4 @@
-import { View, Text, Image, Button,SafeAreaView, TouchableOpacity } from "react-native";
+import { View, Text, Image, TouchableOpacity } from "react-native";
 import React from "react";
 import { StyleSheet } from "react-native";
 import { Colors } from "@/constants/Colors";
@@ -35,13 +35,11 @@ export default function Login() {
             color: "grey",
           }}
         >
-          Your Ultimate Travel Companion Using The Power Of AI And Seamless
-          Travel Planning Experience With Our Beautifully Designed Interface And
-          Intuitive Features
+          Your Ultimate Travel Companion Using The Power Of AI And Seamless Travel Planning Experience With Our Beautifully Designed Interface And Intuitive Features
         </Text>
         <TouchableOpacity style={styles.button}
         onPress={()=>{
-            router.push('auth/sign-in')
+            router.navigate('auth/sign-in')
         }}
         >
             <Text style={{
