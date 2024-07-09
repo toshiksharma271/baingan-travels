@@ -35,7 +35,7 @@ export default function Login() {
             color: "grey",
           }}
         >
-          Your Ultimate Travel Companion Using The Power Of AI And Seamless Travel Planning Experience With Our Beautifully Designed Interface And Intuitive Features
+          Your Ultimate Travel Companion Using The Power Of AI And Seamless Travel Planning Experience With Our Beautifully Designed Interface And Intuitive Features 
         </Text>
         <TouchableOpacity style={styles.button}
         onPress={()=>{

@@ -7,13 +7,13 @@ import { getAuth } from "firebase/auth";
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-  apiKey: "Enter api Key here!,Hiding due to Privacy reason!",
+  apiKey: process.env.EXPO_PUBLIC_FIREBASE_API_KEY,
   authDomain: "baingan-travels.firebaseapp.com",
   projectId: "baingan-travels",
   storageBucket: "baingan-travels.appspot.com",
-  messagingSenderId: "Hiding due to Privacy reason!",
-  appId: "1:Hiding due to Privacy reason!",
-  measurementId: "Hiding due to Privacy reason!"
+  messagingSenderId: process.env.EXPO_PUBLIC_FIREBASE_MESSAGING_SENDER_ID,
+  appId: process.env.EXPO_PUBLIC_FIREBASE_APP_ID,
+  measurementId: process.env.EXPO_PUBLIC_FIREBASE_MEASUREMENT_ID
 };
 
 // Initialize Firebase

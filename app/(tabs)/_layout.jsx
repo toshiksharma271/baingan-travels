@@ -36,15 +36,6 @@ export default function TabLayout() {
           ),
         }}
       />
-      <Tabs.Screen
-        name="sumit"
-        options={{
-          title: "sumit",
-          tabBarIcon: ({ color }) => (
-            <Ionicons name="globe-sharp" size={24} color={color} />
-          ),
-        }}
-      />
       {/* change font family to outline-bold */}
 
       <Tabs.Screen

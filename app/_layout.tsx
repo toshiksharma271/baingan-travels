@@ -1,6 +1,7 @@
 import { useFonts } from "expo-font";
 import { Stack } from "expo-router";
 
+
 export default function RootLayout() {
 useFonts({
   'outfit-regular' : require('./../assets/fonts/Outfit-Regular.ttf'),
@@ -9,6 +10,7 @@ useFonts({
 })
 
   return (
+   
     <Stack screenOptions={{
       headerShown: false
     
