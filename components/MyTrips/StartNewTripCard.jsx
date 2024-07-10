@@ -45,7 +45,7 @@ export default function StartNewTripCard() {
             fontFamily: "outfit-medium",
             fontSize: 20,
             color:Colors.darkGrey,
-            backgroundColor: "white",
+            backgroundColor: "pink",
             padding: 10,
             borderWidth:0.5,
             borderRadius: 10,
